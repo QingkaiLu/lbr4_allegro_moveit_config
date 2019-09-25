@@ -1,0 +1,119 @@
+# joint_limits.yaml allows the dynamics properties specified in the URDF to be overwritten or augmented as needed
+# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
+# Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
+joint_limits:
+  index_joint_0:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_joint_1:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_joint_2:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_joint_3:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j0:
+    has_velocity_limits: true
+    max_velocity: 1.91
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j1:
+    has_velocity_limits: true
+    max_velocity: 1.91
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j2:
+    has_velocity_limits: true
+    max_velocity: 2.234
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j3:
+    has_velocity_limits: true
+    max_velocity: 2.234
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j4:
+    has_velocity_limits: true
+    max_velocity: 3.56
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j5:
+    has_velocity_limits: true
+    max_velocity: 3.211
+    has_acceleration_limits: false
+    max_acceleration: 0
+  lbr4_j6:
+    has_velocity_limits: true
+    max_velocity: 3.21
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_joint_0:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_joint_1:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_joint_2:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_joint_3:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_joint_0:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_joint_1:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_joint_2:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_joint_3:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_joint_0:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_joint_1:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_joint_2:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_joint_3:
+    has_velocity_limits: true
+    max_velocity: 7
+    has_acceleration_limits: false
+    max_acceleration: 0

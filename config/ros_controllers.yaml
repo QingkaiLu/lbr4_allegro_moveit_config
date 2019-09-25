@@ -1,0 +1,43 @@
+lbr4:
+# MoveIt-specific simulation settings
+  moveit_sim_hw_interface:
+    joint_model_group: controllers_initial_group_
+    joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+  generic_hw_control_loop:
+    loop_hz: 300
+    cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+  hardware_interface:
+    joints:
+      - lbr4_j0
+      - lbr4_j1
+      - lbr4_j2
+      - lbr4_j3
+      - lbr4_j4
+      - lbr4_j5
+      - lbr4_j6
+      - index_joint_0
+      - index_joint_1
+      - index_joint_2
+      - index_joint_3
+      - middle_joint_0
+      - middle_joint_1
+      - middle_joint_2
+      - middle_joint_3
+      - ring_joint_0
+      - ring_joint_1
+      - ring_joint_2
+      - ring_joint_3
+      - thumb_joint_0
+      - thumb_joint_1
+      - thumb_joint_2
+      - thumb_joint_3
+    sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+  controller_list:
+    []

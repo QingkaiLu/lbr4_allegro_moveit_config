@@ -1,0 +1,31 @@
+controller_list:
+  - name: fake_robot_table_controller
+    joints:
+      []
+  - name: fake_kuka_arm_controller
+    joints:
+      - lbr4_j0
+      - lbr4_j1
+      - lbr4_j2
+      - lbr4_j3
+      - lbr4_j4
+      - lbr4_j5
+      - lbr4_j6
+  - name: fake_allegro_hand_controller
+    joints:
+      - index_joint_0
+      - index_joint_1
+      - index_joint_2
+      - index_joint_3
+      - middle_joint_0
+      - middle_joint_1
+      - middle_joint_2
+      - middle_joint_3
+      - ring_joint_0
+      - ring_joint_1
+      - ring_joint_2
+      - ring_joint_3
+      - thumb_joint_0
+      - thumb_joint_1
+      - thumb_joint_2
+      - thumb_joint_3
